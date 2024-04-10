@@ -7,24 +7,23 @@
 
     <!-- Folha de estilo de CSS Linkado -->
     <link rel="stylesheet" href="style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!-- Fonte do Projeto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    
-    <title>Portifólio Pessoal</title>
+
+  <title>Portifólio Pessoal</title>
 </head>
 <body>
     <!-- Sessão de Menu  -->
     <div class="all">
-    <section class="menu">
+    <section class="menu column">
         <header>
             <img src="assets\vector.png">
             <h3 class="menu__title">Fulana de Tal</h3>
         </header>
-        <nav>
+        <nav >
             <ul class="menu__list">
                 <li class="menu__list__item"><a href="#sobremim">Sobre mim</a></li>
                 <li class="menu__list__item"><a href="#skills">Skills</a></li>
@@ -33,13 +32,12 @@
                 <li class="menu__list__item"><a href="#xp">Experiência</a></li>
                 <li class="menu__list__item"><a href="#contato">Contato@fulana.com</a></li>
             </ul>
-            <li class="menu__list__item__contato"><a href="#contato">contato@fulana.com</a></li>
         </nav>
     </section>
 
 <!-- Sessão de Header/Title/Hero -->
     <section class="title">
-        <div class="title__div">
+        <div class="title__div column">
             <img class="title__profile" src="assets\profile.png">
             <div class="title__container" id="#sobremim">
                 <h2 class="title__bio">Olá, meu nome é Fulana de Tal e construo páginas web</h2>
@@ -57,18 +55,18 @@
 
         <!-- Sessão sobre mim -->
     <section class="about">
-        <div class="about__container">
+        <div class="about__container column">
             <h3 class="about__title">Sobre mim</h3>
             <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. </p>
             <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
             <!-- Caso queira colocar sua própria assinatura, insira aqui! -->
-            <img src="assets\signature.png">
+            <img id="img_signature"src="assets\signature.png">
         </div>
     </section>
 
 <!-- Sessão de Skills/Habilidades -->
-    <section class="skills">
-        <h3 class="skills__title" id="skills">Skills</h3>
+    <section class="skills column">
+        <h3 class="skills__title column" id="skills">Skills</h3>
             <div class="skills__line">
                 <div class="skills__box">
                     <ul>
@@ -115,7 +113,7 @@
     </section>
 
 <!-- Sessão de Hobbies -->
-    <section class="hobbies" id="hobbies">
+    <section class="hobbies column" id="hobbies">
         <h3 class="hobbies__title">Hobbies</h3>
             <div class="hobbies__line">
                 <div class="hobbies__box">
@@ -163,7 +161,7 @@
     </section>
 
     <!-- Sessão de Histórico Acadêmico -->
-    <section class="academic">
+    <section class="academic column">
         <h2 class="academic__title" id="formacao">Formação acadêmica</h2>
         <div class="academic__courses">
             <div class="academic__courses__box">
@@ -194,7 +192,7 @@
     </section>
 
     <!-- Sessão de Experiência Profissional/Projetos-->
-    <section class="experience">
+    <section class="experience column">
         <h2 class="experience__section__title" id="xp">Experiência Profissional</h2>
         <div class="experiencie__box">
             <!-- Insira a logo/captura de seu projeto/trabalho -->

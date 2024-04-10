@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+ 
+  background-color: #F5F5F5;
+  font-family: "Raleway";
+  
+ }
+
+.all {
+  display: flex;
+  flex-direction: column;
+  gap:32px;
+}
+.column {
+  width: 50%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.menu {
+  display: flex;
+  gap: 1rem;
+  padding: 1.7rem 0;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu__list {
+  display: flex;
+  gap: 1.7rem;
+}
+
+.menu__list a {
+  color: #494949;
+}
+
+.menu__list li:nth-child(6) {
+  font-weight: 900;
+}
+
+.title__bio {
+  font-size: 3.25rem;
+  font-weight: bold;
+  color:#464646;
+}
+.title__subsection {
+  font-size: 1.25rem;
+  font-weight:300;
+  color:#464646;
+}
+.title{
+  background-color: #F5F5F5;
+  
+  }
+.title__div {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+}
+.title__profile {
+  width: 400px;
+  height: 400px;
+}
+
+.title__container {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  gap: 24px;
+  text-align: start;
+}
+
+.title__network {
+  display: flex;
+  gap: 32px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: black;
+}
+.title__network__item {
+
+}
+.title__network a, img {
+  width: 16px;
+  height: 16px;
+  color: black;
+}
+
+/*Sobre mim*/
+
+.about {
+  background-color: #EAF2FD;
+  padding: 64px 0 64px 0;
+  }
+.about__container {
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+}
+.about__title {
+  font-size: 32px;
+  font-weight: bold;
+}
+.about__paragraph{
+  max-width: 751px;
+  font-size: 1rem;
+  font-weight: 200;
+}
+#img_signature {
+  width:140px;
+  height: 52px;
+}
+/*Sessão de Skills/Habilidades*/
+.skills__title  {
+  text-align: center;
+}
+.skills__line {
+  display: flex;
+  justify-content: space-between;
+  gap:16px;
+}
+.skills__box {
+  background-color: #fff;
+  width: 176px;
+  height: 174px;
+}
