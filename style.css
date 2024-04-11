@@ -7,14 +7,12 @@
 }
 
 body {
- 
   background-color: #F5F5F5;
-  font-family: "Raleway";
-  
+  font-family: "Raleway"; 
  }
 
 .all {
-  display: flex;
+   display: flex;
   flex-direction: column;
   gap:32px;
 }
@@ -66,10 +64,11 @@ header {
   display: flex;
   flex-direction: row-reverse;
   text-align: center;
+  gap: auto;
 }
 .title__profile {
-  width: 400px;
-  height: 400px;
+  width: 368px;
+  height: 368px;
 }
 
 .title__container {
@@ -121,16 +120,78 @@ header {
   height: 52px;
 }
 /*Sessão de Skills/Habilidades*/
+.skills {
+  margin-bottom: 88px;
+}
 .skills__title  {
+  font-size: 32px;
+  font-weight: bold;
   text-align: center;
+  margin-bottom: 32px;
 }
 .skills__line {
   display: flex;
-  justify-content: space-between;
-  gap:16px;
+  justify-content: space-around;
+  gap: 16px;
+  flex-wrap: wrap;
 }
-.skills__box {
+.skills__box{
   background-color: #fff;
   width: 176px;
   height: 174px;
+  }
+  .skills__box ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: end;
+    gap: 8px;
+    padding: 16px;
+  }
+  .skills__img img{
+    width: 28px;
+    height: 28px;
+  }
+  .skills__name {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+/*  Sessão de Hobbies*/
+.hobbies {
+  margin-bottom: 88px;
+}
+.hobbies__title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.hobbies__line {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.hobbies__box {
+  background-color: #fff;
+  width: 176px;
+  height: 174px;
+}
+
+.hobbies__box ul {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: end;
+  gap: 8px;
+  padding: 16px;
+}
+.hobbies__img img{
+  width: 28px;
+  height: 28px;
+}
+.hobbies__name {
+  font-size: 1rem;
+  font-weight: bold;
 }
