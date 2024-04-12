@@ -4,6 +4,7 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+   font-family: Raleway;
 }
 
 body {
@@ -100,6 +101,7 @@ header {
 .about {
   background-color: #EAF2FD;
   padding: 64px 0 64px 0;
+  border: 2px solid red;
   }
 .about__container {
   display: flex;
@@ -194,4 +196,123 @@ header {
 .hobbies__name {
   font-size: 1rem;
   font-weight: bold;
+}
+
+/*Sessão de Histórico Acadêmico*/
+
+.academic {
+  background-color: #EAF2FD;
+  padding: 64px 0 64px 0;
+  }
+  .academic__title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 32px;
+  }
+.academic__courses{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.academic__courses__box ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.academic__courses__box ul li:nth-child(2) {
+  display: flex;
+  text-align:justify-all;
+  width: 100%;
+  font-size: 22px;
+  font-weight: bold;
+}
+.academic__courses__box ul li:nth-child(3) {
+  display: flex;
+  text-align:justify-all;
+  width: 100%;
+  font-size: 16px;
+  font-weight: medium;
+  margin-bottom: 8px;
+}
+.academic__courses__item__img {
+  width: 368px;
+  height: 286px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.academic__courses__item__img img {
+  width: 192px;
+  height: 130px;
+}
+
+/* Sessão de Experiência Profissional/Projetos */
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+.experience__section__title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 32px;
+}
+.experiencie__box {
+  display: flex;
+  text-align: center;
+  text-align: start;
+  gap: 16px;
+}
+.experiencie__box:nth-child(odd) {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: start;
+}
+
+.experience__img {
+  width: 772px;
+  height: 426px;
+}
+.experience__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.experience__title {
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 8px;
+
+}
+.experience__text {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 8px;
+}
+.experience__description {
+  display: flex;
+  gap: 16px;
+}
+.experiencia__botao--repo {
+  padding: 1.225em;
+  color: #2A7AE4;
+  background-color: transparent;
+  border:1px solid #2A7AE4;
+  font-size: 16px
+}
+.experiencia__botao--demo {
+  padding: 1.225em;
+  color: #FFF;
+  background-color: #2A7AE4;
+  font-size: 16px
 }
