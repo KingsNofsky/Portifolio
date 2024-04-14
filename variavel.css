@@ -1,0 +1,13 @@
+:root {
+	--cor-principal:#F5F5F5;
+	--cor-secundaria:#EAF2FD;
+	--cor-do-texto:#464646;
+	--cor-da-caixa:#FFF;
+
+	--cor1-do-botao:#2A7AE4;
+	--cor1-texto-botao:#FFF;
+	--cor-do-botao2: transparent;
+
+	--cor2-hover-botao:#D4E4FA;
+	--cor1-hover-botao:#5595E9;
+}
